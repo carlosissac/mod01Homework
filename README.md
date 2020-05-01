@@ -23,18 +23,25 @@ GIVEN a webpage meets accessibility standards
 
 WHEN I view the source code
 THEN I find semantic HTML elements
+---- Issac > Used header, Nav, Article, Aside and Footer inisde Body
 
 WHEN I view the structure of the HTML elements
 THEN I find that the elements follow a logical structure independent of styling and positioning
+---- Issac > the elements follow the arrangement order inside the Body,
+---- Header > Nav > Article > Aside > Footer  
 
 WHEN I view the image elements
 THEN I find accessible alt attributes
+---- Issac > added descriptive tags to all image elements
 
 WHEN I view the heading attributes
 THEN they fall in sequential order
+---- Issac > Changed footer to H4
 
 WHEN I view the title element
 THEN I find a concise, descriptive title
+---- Issac > changed title to Horiseon
+
 ```
 
 ## Review
