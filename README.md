@@ -23,7 +23,7 @@ GIVEN a webpage meets accessibility standards
 
 WHEN I view the source code
 THEN I find semantic HTML elements
----- Issac > Used header, Nav, Article, Aside and Footer inisde Body
+---- Issac > Used header, Nav, Section, Aside and Footer inisde Body
 
 WHEN I view the structure of the HTML elements
 THEN I find that the elements follow a logical structure independent of styling and positioning

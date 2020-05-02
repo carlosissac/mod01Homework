@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    margin-bottom: 0px;
 }
 
 body {
@@ -11,8 +12,9 @@ body {
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: #0072bb;
     color: #ffffff;
+    position: relative;
 }
 
 .header h1 {
@@ -21,7 +23,7 @@ body {
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+    color: gray;
 }
 
 .header div {
@@ -48,15 +50,18 @@ a {
 
 p {
     font-size: 16px;
+    margin-bottom: 32px;    
+    color: #ffffff;
 }
 
-.meetingjpg {
+.hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 .float-left {
@@ -69,52 +74,26 @@ p {
     margin-left: 25px;
 }
 
-.article {
+.content {
     width: 75%;
     height: 100%;
     display: inline-block;
     margin-left: 20px;
+    margin-bottom: 0px;
 }
 
-.aside {
-    margin-right: 20px;
+.benefits {
+    margin-right: 35px;
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
+    background-color: #0072bb;
+    position: absolute;
+    top: 100%;
+    right: 0%;
 }
 
 .benefit-lead img {
@@ -123,13 +102,7 @@ p {
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -162,31 +135,24 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+.float-left, .float-right {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+h3 {
+    margin-bottom: 32px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+h4 {
+    font-size: 20px;
 }
 
 .footer {
@@ -196,6 +162,6 @@ p {
     text-align: center;
 }
 
-.footer h2 {
-    font-size: 20px;
+.footer p {
+    color: black;
 }
