@@ -60,7 +60,7 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-    position: relative;
+    /*position: relative;*/
 }
 
 .float-left {
@@ -87,11 +87,11 @@ p {
     clear: both;
     float: right;
     width: 20%;
-    height: 100%;
+    height: 95%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     position: absolute;
-    top: 100%;
+    top: 925px;
     right: 0%;
 }
 
